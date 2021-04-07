@@ -6,6 +6,7 @@ public class Hello {
 
 		System.out.println("hello Insurance Project");
 		System.out.println("Trying to Push in Master");
+		System.out.println("Trying 2nd Push");
 	}
 
 }
