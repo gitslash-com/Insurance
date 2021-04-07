@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.ha1{
+    width: 100%; height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('life-insurance2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ha2{
+    width: 100%; height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('motor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ha3{
+    width: 100%; height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('travel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ha4{
+    width: 100%; height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('pa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+}
+nav .menu a:hover{
+    color: #00b894;
+    transition: 0.5s;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+    margin: 30px 0px 20px 0px;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    margin-bottom: 25px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    word-spacing: 2px;
+}
+
+nav .menu a:first-child{
+    color: #00b894;
+}
+.change_content:after{
+    content: '';
+    animation: changetext 5s infinite linear;
+    color: #00b894;
+}
+@keyframes changetext{
+    0%{content: "Health Insurance";}
+    20%{content: "Motor Insurance";}
+    35%{content: "Personal Accident Insurance";}
+    50%{content: "Travel Insurance";}
+}
+nav .logo a{
+    text-decoration: none;
+    color: white;
+}
+nav .logo a:hover{
+    color: #00b894;
+    transition: 0.5s;
+}
+.hb{
+    width: 100%; height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newr
+{
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+nav .head h1
+{
+    padding-left: 10cm;
+    margin: 30px 0px 20px 0px;
+    color: #00b894;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+.box
+{
+    padding-top: 3cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 3cm;
+    font-size: 20px;
+	color: black;
+	outline: none;
+	border: none;
+	background-color:white;
+	opacity: 0.5;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+nav .paragraph
+{
+    padding-top: 3cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 3cm;
+}
+.first
+{
+    padding-top: 4cm;
+    padding-left: 10cm;
+    padding-bottom: 4cm;
+}
+
+nav .policy a{
+    padding: 30px 60px;
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+nav .policy .btna{
+    background: white;
+    color: black;
+}
+nav .policy .btna:hover{
+    background: #00b894;
+    color: white;
+    transition: 0.5s;
+}
+nav .policy .btnb{
+    background: #00b894;
+    color: white;
+}
+nav .policy .btnb:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+nav .policy .btnc{
+    background: white;
+    color: black;
+}
+nav .policy .btnc:hover{
+    background: #00b894;
+    color: white;
+    transition: 0.5s;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  footer p {
+    margin: 10px 0;
+  }
+  
+  footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
