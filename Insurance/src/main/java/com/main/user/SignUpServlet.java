@@ -57,6 +57,7 @@ public class SignUpServlet extends HttpServlet {
 			if (result>0) {
 				response.sendRedirect("login.html");
 			} else {
+				response.sendError(result, "Registration Fail");
 				response.sendRedirect("signup.html");
 			}
 
