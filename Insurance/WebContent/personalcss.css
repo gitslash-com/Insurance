@@ -1,0 +1,33 @@
+html,body{
+    background-image: url("pers2.jpg");
+    background-size: cover;
+    
+}
+
+.container{
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-display: fallback;
+    font-size: 20px;
+    
+}
+table {
+        background-image:  linear-gradient(rgba(0,0,0,0),#009687);
+        border: 1px;
+        padding: 15px; 
+        border-radius: 30px; 
+        padding-top : 40px; 
+        padding-left: 100px;  
+        padding-right: 100px; 
+    }
+label{
+        color: black;
+}
+.title{
+    color:blue;
+     font-weight: 800;
+        font-size: 20px;
+}

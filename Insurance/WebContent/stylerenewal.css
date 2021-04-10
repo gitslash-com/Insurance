@@ -1,0 +1,67 @@
+
+html,body{
+    background-image: url("RenewalBG.jpg");
+    background-size: cover;
+    
+}
+
+.container{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-display: fallback;
+    font-size: 20px;
+    
+}
+table {
+        background-image:  linear-gradient(rgba(0,0,0,0),#009687);
+        border: 1px;
+        padding: 15px; 
+        border-radius: 30px; 
+        padding-top : 40px; 
+        padding-left: 100px;  
+        padding-right: 100px; 
+    }
+label{
+        color: aquamarine;
+}
+.A{
+        color: aquamarine;
+        font-weight: 800;
+}
+.container .form{   
+        padding: 90px ;
+        border-radius: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-center{
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        font-size: 25px;
+}
+ 
+.form-control{
+        height: 40px;
+        font-size: 15px;
+}
+.container .form form .button{
+        background: coral;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+        background: #5757d1;
+}
+
+.link a{
+        color: cornsilk;
+        font-weight: 800;
+}
+.container .row .alert{
+        font-size: 14px;
+}
